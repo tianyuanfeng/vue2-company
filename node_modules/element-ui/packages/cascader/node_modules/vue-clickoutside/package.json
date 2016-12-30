@@ -1,0 +1,107 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "vue-clickoutside@0.0.4",
+        "scope": null,
+        "escapedName": "vue-clickoutside",
+        "name": "vue-clickoutside",
+        "rawSpec": "0.0.4",
+        "spec": "0.0.4",
+        "type": "version"
+      },
+      "/Users/yangyi/element-1/packages/cascader"
+    ]
+  ],
+  "_from": "vue-clickoutside@0.0.4",
+  "_id": "vue-clickoutside@0.0.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/vue-clickoutside",
+  "_nodeVersion": "5.7.1",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/vue-clickoutside-0.0.4.tgz_1460367486969_0.6860619718208909"
+  },
+  "_npmUser": {
+    "name": "qingwei.li",
+    "email": "cinwell.li@gmail.com"
+  },
+  "_npmVersion": "3.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "vue-clickoutside@0.0.4",
+    "scope": null,
+    "escapedName": "vue-clickoutside",
+    "name": "vue-clickoutside",
+    "rawSpec": "0.0.4",
+    "spec": "0.0.4",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-clickoutside/-/vue-clickoutside-0.0.4.tgz",
+  "_shasum": "75becb3db442b144bc6217f98a8f52be8a56c959",
+  "_shrinkwrap": null,
+  "_spec": "vue-clickoutside@0.0.4",
+  "_where": "/Users/yangyi/element-1/packages/cascader",
+  "author": {
+    "name": "qingwei.li",
+    "email": "qingwei.li@ele.me"
+  },
+  "bugs": {
+    "url": "https://github.com/element-component/vue-clickoutside/issues"
+  },
+  "dependencies": {},
+  "description": "A Vue directive about listener a click outside an element.",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-jasmine": "^0.3.8",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-rollup-preprocessor": "^2.0.1",
+    "rollup": "^0.25.8",
+    "rollup-plugin-babel": "^2.4.0",
+    "rollup-plugin-commonjs": "^2.2.1",
+    "rollup-plugin-env": "^0.21.2",
+    "rollup-plugin-node-resolve": "^1.5.0",
+    "vue": "^1.0.21"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "75becb3db442b144bc6217f98a8f52be8a56c959",
+    "tarball": "https://registry.npmjs.org/vue-clickoutside/-/vue-clickoutside-0.0.4.tgz"
+  },
+  "gitHead": "0d90586e2e8ee96558eb3faf5b6e863c712f3944",
+  "homepage": "https://github.com/element-component/vue-clickoutside#readme",
+  "keywords": [
+    "vue",
+    "click",
+    "outside",
+    "directive"
+  ],
+  "license": "MIT",
+  "main": "build/index.js",
+  "maintainers": [
+    {
+      "name": "qingwei.li",
+      "email": "cinwell.li@gmail.com"
+    }
+  ],
+  "name": "vue-clickoutside",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/element-component/vue-clickoutside.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "publish": "npm run build",
+    "test": "npm run build && karma start"
+  },
+  "version": "0.0.4"
+}
