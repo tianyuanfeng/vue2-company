@@ -1,10 +1,9 @@
 <template>
   <div>
-    connection
-    <el-menu default-active="2" class="el-menu-vertical-demo" :router="true">
-      <el-menu-item index="branch-jin">金茂大厦总部</el-menu-item>
-      <el-menu-item index="branch-pu">浦东分公司</el-menu-item>
-    </el-menu>
+    <el-breadcrumb separator=" ">
+      <el-breadcrumb-item :to="{ path: '/branch-jin' }">金茂大厦总部</el-breadcrumb-item>
+      <el-breadcrumb-item :to="{ path: '/branch-pu' }">浦东分公司</el-breadcrumb-item>
+    </el-breadcrumb>
     <div class="view">
       <router-view></router-view>
     </div>

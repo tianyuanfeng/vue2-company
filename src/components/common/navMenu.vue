@@ -1,19 +1,6 @@
 <template>
   <div class="nav-menu clearfix">
     <a><span class="title">华禧基金</span></a>
-    <!--<div class="fright">-->
-      <!--<el-row>-->
-        <!--<el-menu theme="dark" default-active="1" class="el-menu-demo" mode="horizontal">-->
-          <!--<el-menu-item index="1">Notification</el-menu-item>-->
-          <!--<el-submenu index="2">-->
-            <!--<template slot="title">My admin</template>-->
-            <!--<el-menu-item index="2-1">Tab2</el-menu-item>-->
-            <!--<el-menu-item index="2-2">Tab3</el-menu-item>-->
-            <!--<el-menu-item index="2-3">Tab4</el-menu-item>-->
-          <!--</el-submenu>-->
-        <!--</el-menu>-->
-      <!--</el-row>-->
-    <!--</div>-->
   </div>
 </template>
 <style>

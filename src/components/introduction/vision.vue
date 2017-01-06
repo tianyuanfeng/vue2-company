@@ -1,5 +1,5 @@
 <template>
   <div>
-    vision
+    <img src="../../assets/vision.jpg" alt="vision">
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
   <div>
-    culture
+    <img src="../../assets/culture.jpg" alt="culture">
   </div>
 </template>
