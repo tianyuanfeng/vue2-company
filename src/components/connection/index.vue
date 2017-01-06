@@ -1,6 +1,8 @@
 <template>
   <div>
     <el-breadcrumb separator=" ">
+      <el-breadcrumb-item :to="{ path: '/relation' }">联系我们</el-breadcrumb-item>
+      <br>
       <el-breadcrumb-item :to="{ path: '/branch-jin' }">金茂大厦总部</el-breadcrumb-item>
       <el-breadcrumb-item :to="{ path: '/branch-pu' }">浦东分公司</el-breadcrumb-item>
     </el-breadcrumb>

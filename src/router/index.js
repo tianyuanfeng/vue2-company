@@ -24,11 +24,18 @@ const router =  new Router({
   routes: [
     {
       path: '/introduction',
+      redirect: '/company',
       title:'公司简介',
       component(resolve){
         require (['../components/introduction/index.vue'], resolve);
       },
       children: [
+        {
+          path: '/company',
+          title:'公司简介',
+          component(resolve){
+            require (['../components/introduction/company.vue'], resolve);}
+        },
         {
           path: '/history',
           title:'发展历程',
@@ -51,11 +58,18 @@ const router =  new Router({
     },
     {
       path: '/business',
+      redirect: '/operation',
       title:'业务领域',
       component(resolve){
         require (['../components/business/index.vue'], resolve);
       },
       children: [
+        {
+          path: '/operation',
+          title:'业务领域',
+          component(resolve){
+            require (['../components/business/operation.vue'], resolve);}
+        },
         {
           path: '/equity',
           title:'股权投资',
@@ -92,12 +106,19 @@ const router =  new Router({
     },
     {
       path: '/connection',
+      redirect: '/relation',
       title:'联系我们',
       name: 'host',
       component(resolve){
         require (['../components/connection/index.vue'], resolve);
       },
       children: [
+        {
+          path: '/relation',
+          title:'联系我们',
+          component(resolve){
+            require (['../components/connection/relation.vue'], resolve);}
+        },
         {
           path: '/branch-jin',
           title:'金茂大厦总部',
