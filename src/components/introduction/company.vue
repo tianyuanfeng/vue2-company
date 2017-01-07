@@ -1,10 +1,36 @@
 <template>
   <div>
-    <p>ewewewewewewewewewewewewewewewewewewewewewewewewewewewewewewewewewewewewewewewewewewewewewew
-      华禧（上海）股权投资基金管理有限公司，简称华禧资本（Trust Capital），于2014年7月成立，注册地上海浦东自贸区，注册资本1亿2千万，是一家由复旦、港大等名校校友所创立的新兴私募股权投资基金。目前首期管理一只房地产投资基金和一只成长型企业股权投资基金，主要投资方向为：绿色能源、先进制造、生物医药、移动互联、地产开发与资产处置等领域。
-      公司自成立以来锐意进取，资产规模不断扩大，截止2016年9月，公司资产规模突破百亿大关。华禧基金在上海相继设立三家分公司，并且在其他重要一线二线城市也有分部。公司业务涉及股权投资、创业投资、融资租赁、金融服务咨询等领域，旨在成为投资、融资、租赁等金融行业中的标杆企业。
-      在不断开放的中国金融市场中，华禧基金将在坚守党的政策和方针前提下，不断开拓创新，力争成为中国金融市场浪潮中最前沿、最具创新能力的弄潮儿！
-    </p>
+    <div class="inforSummaryArea">
+      <p class="inforSummaryTit">COMPANY PROFILE</p>
+      <h1 class="inforSummaryTit2">公司简介</h1>
+      <p class="inforSummaryTxt">
+        华禧（上海）股权投资基金管理有限公司，简称华禧资本（Trust Capital），于2014年7月成立，注册地上海浦东自贸区。
+      </p>
+    </div>
     <img src="../../assets/history.jpg" alt="history">
   </div>
 </template>
+<style>
+  .inforSummaryArea {
+    background: #fff;
+    padding: 30px 125px;
+  }
+  .inforSummaryTit {
+    font-size: 30px;
+    color: #da0000;
+    text-align: center;
+  }
+  .inforSummaryTit2 {
+    font: 700 18px/30px "Microsoft Yahei";
+    text-align: center;
+  }
+  .inforSummaryTxt {
+    font: 14px/24px "Microsoft Yahei";
+    padding-top: 10px;
+    width: 750px;
+    text-align: center;
+  }
+  img {
+    width:100%;
+  }
+</style>

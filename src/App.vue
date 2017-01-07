@@ -5,16 +5,18 @@
     <div class="view-wrap">
       <router-view></router-view>
     </div>
+    <foot-menu></foot-menu>
   </div>
 </template>
 
 <script>
 import NavMenu from 'components/common/navMenu'
 import SideMenu from 'components/common/sideMenu'
+import FootMenu from 'components/common/footMenu'
 export default {
   name: 'app',
   components: {
-    NavMenu,SideMenu
+    NavMenu,SideMenu,FootMenu
   },
   data(){
     return {
@@ -27,7 +29,8 @@ export default {
 <style>
   @import "styles/app.less";
   .view-wrap{
-    margin-left: 190px;
-    padding-top: 70px;
+    margin-left: 120px;
+    padding-top: 60px;
+    background-color: #ededed;
   }
 </style>

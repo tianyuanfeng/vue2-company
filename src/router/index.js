@@ -23,6 +23,14 @@ const router =  new Router({
   mode: 'hash',
   routes: [
     {
+      path: '',
+      redirect: '/company',
+      title: '公司简介',
+      component(resolve){
+        require(['../components/introduction/index.vue'], resolve);
+      },
+    },
+    {
       path: '/introduction',
       redirect: '/company',
       title:'公司简介',
@@ -98,11 +106,26 @@ const router =  new Router({
     },
     {
       path: '/cooperation',
+      redirect: '/partners',
       title:'合作机构',
       name: 'host',
       component(resolve){
         require (['../components/cooperation/index.vue'], resolve);
-      }
+      },
+      children: [
+        {
+          path: '/partners',
+          title:'合作机构',
+          component(resolve){
+            require (['../components/cooperation/partners.vue'], resolve);}
+        },
+        {
+          path: '/partners1',
+          title:'合作机构1',
+          component(resolve){
+            require (['../components/cooperation/partners1.vue'], resolve);}
+        }
+      ]
     },
     {
       path: '/connection',
