@@ -1,13 +1,13 @@
 
 <template>
   <div>
-    <div class="subanner">
+    <div class="subanner animated bounceInRight">
       <div class="subannertxt">
         <h1>金茂大厦总部</h1>
       </div>
       <img src="../../assets/branch-jin.jpg" class="subannerImg" alt="金茂大厦总部">
     </div>
-    <div id="mainBody" class="main-body">
+    <div id="mainBody" class="main-body animated bounceInRightSlow">
       <div class="mainCont">
         <div class="mainTabtxt">
           <i class="item01">
@@ -22,6 +22,7 @@
   </div>
 </template>
 <style>
+  @import "../../styles/animate.css";
   .subanner {
     height: 294px;
     position: relative;

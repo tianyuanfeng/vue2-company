@@ -15,15 +15,11 @@
 <style>
   .side-menu{
     position: fixed;
-    font-weight: bold;
     top: 60px;
-    left: 0;
-    bottom: 0;
-    width: 120px;
-    min-width: 45px;
-    max-height: 100vh;
     height: 100%;
-    z-index: 1023;
+    float: left;
+    font-weight: bold;
+    width: 120px;
     background: #fff;
     box-shadow: 0 2px 3px hsla(0,0%,7%,.1),0 0 0 1px hsla(0,0%,7%,.1);
     overflow-y: auto;

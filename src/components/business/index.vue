@@ -7,7 +7,7 @@
         </div>
         <el-breadcrumb class="hx-el-breadcrumb" separator=" ">
           <span class="hx-fl">我的位置：</span>
-          <el-breadcrumb-item class="hx-el-breadcrumb-item" :to="{ path: '/operation' }">业务领域</el-breadcrumb-item>
+          <el-breadcrumb-item class="hx-el-breadcrumb-item" :to="{ path: '/operation' }">{{name}}业务领域</el-breadcrumb-item>
           <br>
           <div class="hx-br-height"></div>
           <el-breadcrumb-item class="hx-el-breadcrumb-item" :to="{ path: '/equity' }">股权投资</el-breadcrumb-item>

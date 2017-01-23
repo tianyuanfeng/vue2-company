@@ -1,20 +1,18 @@
 
 <template>
   <div>
-    <div class="inforSummaryArea">
+    <div class="inforSummaryArea animated bounceInRight">
       <p class="inforSummaryTit">BUSINESS AREA</p>
       <h1 class="inforSummaryTit2">业务领域</h1>
       <p class="inforSummaryTxt">
         国内通常把股权投资译作PE，广义的PE为涵盖企业首次公开发行前各阶段的权益投资,国内通常把股权投资译作PE.
       </p>
     </div>
-    <img src="../../assets/equity.jpg" alt="equity">
+    <img class="animated bounceInRightSlow" src="../../assets/equity.jpg" alt="equity">
   </div>
 </template>
 <style>
-
-</style>
-<style>
+  @import "../../styles/animate.css";
   .inforSummaryArea {
     background: #fff;
     padding: 30px 125px;
@@ -31,7 +29,7 @@
   .inforSummaryTxt {
     font: 14px/24px "Microsoft Yahei";
     padding-top: 10px;
-    width: 750px;
+    max-width: 550px;
     text-align: center;
   }
   img {

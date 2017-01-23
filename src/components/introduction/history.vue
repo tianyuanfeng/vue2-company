@@ -1,12 +1,12 @@
 <template>
     <div>
-        <div class="subanner">
+        <div class="subanner animated bounceInRight">
             <div class="subannertxt">
                 <h1>发展历程</h1>
             </div>
             <img src="../../assets/subBanner.jpg" class="subannerImg" alt="发展历程">
         </div>
-        <div id="mainBody" class="main-body">
+        <div id="mainBody" class="main-body animated bounceInRightSlow">
             <div class="mainCont">
                 <div class="mainTabtxt">
                   <i class="item01">
@@ -26,6 +26,7 @@
     </div>
 </template>
 <style>
+    @import "../../styles/animate.css";
     .subanner {
         height: 294px;
         position: relative;

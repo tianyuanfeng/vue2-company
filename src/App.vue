@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app-component">
     <nav-menu></nav-menu>
     <side-menu></side-menu>
     <div class="view-wrap">
@@ -28,6 +28,9 @@ export default {
 
 <style>
   @import "styles/app.less";
+  .app-component {
+    height: 100%;
+  }
   .view-wrap{
     margin-left: 120px;
     padding-top: 60px;
