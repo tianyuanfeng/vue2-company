@@ -2,8 +2,7 @@
   <div>
     <div class="subanner animated bounceInRight">
       <div class="subannertxt">
-        <!--<h1>股权投资</h1>-->
-        <h1>{{name}}</h1>
+        <h1>股权投资</h1>
       </div>
       <img src="../../assets/equity.jpg" class="subannerImg" alt="股权投资">
     </div>

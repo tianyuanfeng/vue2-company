@@ -1,11 +1,6 @@
-# vue2-spa-seed
+# vue2-company
 
 > Vue2.0 SPA Demo build by Moment
-
-# live demo
-
-[live-demo](http://vue.imoment.vip/)
-
 
 ## Knowledge point
 
